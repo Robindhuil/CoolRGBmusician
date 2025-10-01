@@ -45,10 +45,12 @@ Setup
 -----
 
 1. Clone repository:
+   ```bash
    git clone https://github.com/Robindhuil/CoolRGBmusician.git
-2. Install Python dependencies:
+   ```
+3. Install Python dependencies:
    pip install numpy soundcard requests
-3. Configure ESP32:
+4. Configure ESP32:
    - Install MicroPython
    - Update WIFI_SSID and WIFI_PASSWORD in main.py
    - Upload main.py and microdot.py to ESP32 (using Thonny or ampy)
